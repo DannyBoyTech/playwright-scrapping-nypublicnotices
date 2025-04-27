@@ -1,0 +1,57 @@
+{
+    "title": "New York Public Notices",
+    "description": "Input schema for NYPN API",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrl": {
+            "title": "Search URL",
+            "type": "string",
+            "description": "Link to search page on new york public notices",
+            "default": "https://www.newyorkpublicnotices.com/public",
+            "editor": "textfield",
+            "prefill": "https://www.newyorkpublicnotices.com/public"
+        },
+        "keywords": {
+            "title": "Key Words",
+            "type": "string",
+            "description": "Key words to be used in searc",
+            "default": "''",
+            "editor": "textfield",
+            "prefill": "computer"
+        },
+        "startDate": {
+            "title": "Starting Date",
+            "type": "string",
+            "description": "Start date for the search in the format YYYY-MM-DD",
+            "default": "2021-10-22",
+            "editor": "textfield",
+            "prefill": "2021-10-22"
+        },
+        "endDate": {
+            "title": "Ending Date",
+            "type": "string",
+            "description": "End date for the sear in the format YYYY-MM-DD",
+            "default": "2021-10-29",
+            "editor": "textfield",
+            "prefill": "2021-10-29"
+        },
+        "maxResults": {
+            "title": "Total Results",
+            "type": "integer",
+            "description": "The Maximum number of results to return",
+            "default": 0,
+            "editor": "number",
+            "prefill": 0
+        },
+        "useProxy": {
+            "title": "Use APIFY proxies",
+            "type": "boolean",
+            "description": "Use apify proxy while scraping",
+            "default": false,
+            "editor": "checkbox"
+        }
+    },
+    "required": []
+}
+

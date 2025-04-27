@@ -1,0 +1,11 @@
+{
+    "startUrl": "https://newyorkpublicnotices.com",
+    "keywords": "probate",
+    "startDate": "9/1/2021",
+    "endDate": "9/8/2021",
+    "maxResults": 0,
+    "useProxy": false,
+    "headless": false,
+    "timeout": 30000,
+    "retries": 3
+}
